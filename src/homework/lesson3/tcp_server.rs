@@ -2,6 +2,7 @@ use std::io::prelude::*;
 use std::net::TcpStream;
 use std::net::TcpListener;
 
+#[allow(unused)]
 pub fn create_server() {
     // create a TcpListener
     let listener = TcpListener::bind("127.0.0.1:3000").unwrap();
